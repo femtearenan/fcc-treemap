@@ -1,7 +1,8 @@
 {
-  "name": "react-redux-skeleton",
+  "name": "fcc-treemap",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://femtearenan.se/projects/fcc/treemap",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

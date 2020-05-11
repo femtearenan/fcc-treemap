@@ -22,8 +22,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <header>
-          <h1 id="title">Tree Map for backings</h1>
-          <p id="description">A visualization of the budget backings of different projects</p>
+          <h1 id="title">Tree Map for movie revenues</h1>
+          <p id="description">A visualization of the budget revenues of different movies, clustered by genre</p>
         </header>
         <article>
           <TreeMap />
