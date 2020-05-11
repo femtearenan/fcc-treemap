@@ -6,6 +6,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import store from './redux/store';
+import { getData, KICKSTARTER_DATA, MOVIE_DATA, GAME_DATA } from './redux/actions';
 
 ReactDOM.render(
   <Provider store={store}>
@@ -18,3 +19,6 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+store.dispatch(getData(KICKSTARTER_DATA));
+store.dispatch(getData(MOVIE_DATA));
+store.dispatch(getData(GAME_DATA));
